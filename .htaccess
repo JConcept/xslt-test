@@ -1,0 +1,3 @@
+#Permet de changer le fichier index par défaut si le fichier n'est pas spécifié.
+#Ici l'ordre de recherche est index.html puis index.htm séparer par des espaces l'ordre de recherche.
+DirectoryIndex index.html index.htm index.php index.xml

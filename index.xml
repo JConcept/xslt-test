@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="./index.xsl" type="text/xsl"?>
+<test>
+	<jeu id="1">
+		<nom>Guild Wars</nom>
+		<type>Jeu de rôle en ligne</type>
+		<prix>Environ 20 € l'épisode</prix>
+	</jeu>
+	<jeu id="2">
+		<nom>Super Mario Galaxy</nom>
+		<type>Jeu de plate-forme</type>
+		<prix>30-50 €</prix>
+	</jeu>
+	<jeu id="3">
+		<nom>Metroid Prime</nom>
+		<type>Jeu de plate-forme</type> 
+		<prix>10-30 €</prix>
+	</jeu>
+	<jeu id="4">
+		<nom>Mario Sokobann</nom>
+		<type>Jeu de réflexion</type>
+		<prix>Gratuit</prix>
+	</jeu>
+	<jeu id="5">
+		<nom>Ruse</nom>
+		<type>Jeu de stratégie</type>
+		<prix>40-60 €</prix>
+	</jeu>
+</test>

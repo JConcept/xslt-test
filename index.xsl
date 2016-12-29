@@ -149,7 +149,15 @@
                 <p><b>Metroid Prime</b> n'existe pas.</p>
             </xsl:if>                               
 
-            <h3>Le "switch"</h3>
+            <h3>Le "switch"</h3> 
+            <xsl:choose> 
+                <xsl:when test="test/jeu[nom = 'Metroid Prime']"> 
+                    J'ai Metroid Prime
+                </xsl:when> 
+                <xsl:otherwise> 
+                    Je n'ai pas Metroid Prime
+                </xsl:otherwise> 
+            </xsl:choose>
 
         </body>
         </html>

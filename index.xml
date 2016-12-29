@@ -12,12 +12,12 @@
 		<prix>30-50 €</prix>
 	</jeu>
 	<jeu id="3">
-		<nom>Metroid Prime</nom>
+		<nom>Luigi arcade</nom>
 		<type>Jeu de plate-forme</type> 
 		<prix>10-30 €</prix>
 	</jeu>
 	<jeu id="4">
-		<nom>Mario Sokobann</nom>
+		<nom>Mario Sokoban</nom>
 		<type>Jeu de réflexion</type>
 		<prix>Gratuit</prix>
 	</jeu>

@@ -109,6 +109,11 @@ Je pense que la seule solution est d'alors [passer pas le "switch"](#le-switch)
 ```
 
 ## Intégrer en php le xml et le xslt
+J'ai créé un exemple d'utilisation avec php ici : http://jconcept.be/test-php-xml-xslt/   
+Pour voir le code ici : [./php/](./php/)
+
+J'ai fait en sorte de trier de façon dynamique les id de résultat. Le code ci-dessous, je l'ai donc créé dans une fonction :
+
 ``` PHP
 <?php
    $xslDoc = new DOMDocument();
@@ -122,3 +127,5 @@ Je pense que la seule solution est d'alors [passer pas le "switch"](#le-switch)
    echo $proc->transformToXML($xmlDoc);
 ?>
 ```
+
+Pour aller plus loin, j'ai découvert ce cours traitant aussi sur les autres fonctions du XSLT _(dont sort que j'ai utilisé pour trier les résultats)_ : https://openclassrooms.com/courses/structurez-vos-donnees-avec-xml/les-templates-7#/id/r-1772814
